@@ -1,5 +1,5 @@
 # 53functions
-Functions to prepare coders to do Code Katas. Each coder will have to clone this repository and start to commit the implementation of the functions. A central CI instance will run their functions and give them a score fo reach function based on how many tests are passing.
+Functions to prepare coders to do Code Katas. Each coder will have to clone this repository and start to commit the implementation of the functions into it. A central CI instance will run their functions and give them a score for each function based on how many tests are passing. Coders will need to start working on that from very early on in the program.
 
 > Fifty-three is the 16th prime number. It is also an Eisenstein prime, and a Sophie Germain prime. The sum of the first 53 primes is 5830, which is divisible by 53, a property shared by few other numbers.
 
