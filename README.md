@@ -49,11 +49,14 @@ Create a function that:
 	* find all the numbers that are factors of both 2 and 7 that is less than the number specified by the parameter
 	* can calculate the factorial for a number supplied as a parameter
 	* can calculate a fibonacci range less than the number supplied as a parameter
-	* can simulate dice rolls for the number of times specified as a parameter - display all the dis rolls.
+	* takes 2 parameters a list of words and the word to find in the list find the index of where the word is in the list and return it
+	* takes 2 parameters a sentence and the word to find in the sentenace find the start and end index of where the word and returns it.
+	* can simulate dice rolls for the number of times specified as a parameter - display all the dice rolls.
 	* find the sum of all the capital letters ASCII codes 
 	* return the sum of all the ascii codes for the letters that is being passed in as parameters.
 	* returns all the letters in the alphabet which is even numbers and lower case
 	* return the sum of the all the lower case letters ascii codes which is less than the parameters specified.
+	 * takes a list of values and a filter function that can filter the list of values - the filtered values should be returned by the function
 	* that takes a function as a parameter which it executes when the (outer) function is called
 	* that takes a function as a parameter and returns a function when executing the returned function it should pass all parameters to the initially passed in function
 	* secret code example at http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html
