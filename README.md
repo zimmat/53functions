@@ -31,25 +31,25 @@ Create a function that:
 20|occurs_least.js|takes a sentence as a parameter and return the letter that occurs the least
 21|uppercase_letters.js|that can find all the uppercase letters in a string
 22|lowercase_letters.js|that can find all the lowercase letters in a string
+	23||can draw a square shape using * it should be 4x4
+24|square.js|can draw a square shape using the character supplied as a parameter it should be 4x4
+25|square_param.js|can draw a square shape using the character supplied as a parameter, the dimensions should be supplied by a parameter
+26|tri.js|can draw a triangle shape using *, it should be have a base of 4
+27|tri_char.js|can draw a triangle shape using the character supplied as a parameter, it should be have a base of 4
+28|square_param_base.js|can draw a square shape using the character supplied as a parameter, the base should be supplied as a parameter
+29|diamond.js|can draw a diamond shape using * the center of the diamond should be 5
+30|diamond_star.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be 5
+31|diamond_char_base.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be supplied as parameter.
+32|add.js|can add two numbers
+33|divide|can divide two numbers
+34|calc_all.js|can add, subtract, multiply or divide 2 numbers
+35|calc_chain.js|has and add, subtract, multiply and divide method - methods should be chainable and it should be possible to do Calculator.add(1,2).multiply(9).value() should equal 27
+36|paper_rock.js|allows one to play rock paper scissors * = rock, # = paper, x = scissors, it should be a constructor function that take in number of games that will be played. var game1 =  new RockPaperScissors(3) - it should have a playerOne and a playerTwo functions, a play and a score method.
+37|factors2.js|find all the factors of 2 that is less than the number specified by the parameter
+38|factors_2_or_7.js|find all the factors of 2 or 7 that is less than the number specified by the parameter
+39|factors_2_and_7.js|find all the numbers that are factors of both 2 and 7 that is less than the number specified by the parameter
+40|factorial.js|can calculate the factorial for a number supplied as a parameter
 	
-	* can draw a square shape using * it should be 4x4
-	* can draw a square shape using the character supplied as a parameter it should be 4x4
-	* can draw a square shape using the character supplied as a parameter, the dimensions should be supplied by a parameter
-	* can draw a triangle shape using *, it should be have a base of 4
-	* can draw a triangle shape using the character supplied as a parameter, it should be have a base of 4
-	* can draw a quare shape using the character supplied as a parameter, the base should be supplied by a parameter	
-	* can draw a diamond shape using * the base of the diamond should be 4
-	* can draw a diamond shape using the character supplied as parameter base of the diamond should be 4
-	* can draw a diamond shape using the character supplied as parameter base of the diamond should be supplied as parameter.
-	* can add two numbers
-	* can divide two numbers
-	* can add, subtract, multiply or divide 2 numbers
-	* has and add, subtract, multiply and divide method - methods should be chainable and it should be possible to do Calculator.add(1,2).multiply(9).value() should equal 27
-	* allows one to play rock paper scissors * = rock, # = paper, x = scissors, it should be a constructor function that take in number of games that will be played. var game1 =  new RockPaperScissors(3) - it should have a playerOne and a playerTwo functions, a play and a score method.
-	* find all the factors of 2 less than the number specified by the parameter
-	* find all the factors of 2 and 7 that is less than the number specified by the parameter
-	* find all the numbers that are factors of both 2 and 7 that is less than the number specified by the parameter
-	* can calculate the factorial for a number supplied as a parameter
 	* can calculate a fibonacci range less than the number supplied as a parameter
 	* takes 2 parameters a list of words and the word to find in the list find the index of where the word is in the list and return it
 	* takes 2 parameters a sentence and the word to find in the sentenace find the start and end index of where the word and returns it.
