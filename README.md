@@ -7,9 +7,15 @@ Functions to prepare coders to do Code Katas. Each coder will have to clone this
 
 Create a function that:
 
-	* return "hello world"
-	* takes a users name as parameter and greet a user as "Hello, USERNAME!"
-	* takes a users name as parameter and greet a user as "Hello, USERNAME!" if their name is Joe or Bob otherwise only say "Hello!"
+ #|File name | What the function should do
+--|----------|-------------------------------------------------------------------------------------
+1 | hello.js | return "hello world"
+2 | hello_uppercase.js| takes a users name as parameter and greet a user as "Hello, USERNAME!"
+3 | hello_joe.js | takes a users name as parameter and greet a user as "Hello, USERNAME!" if their name is Joe or Bob otherwise only say "Hello!"
+
+
+
+
 	* takes a number as a parameter (n) and return a list of number from 1 to n
 	* takes a number as a parameter (n) and the sum of numbers from 1 to n
 	* takes a string parameter and return the length of the supplied parameter
