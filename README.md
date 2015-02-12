@@ -7,35 +7,31 @@ Functions to prepare coders to do Code Katas. Each coder will have to clone this
 
 Create a function that:
 
- #|File name | What the function should do
---|----------|-------------------------------------------------------------------------------------
-1 | hello.js | return "hello world"
-2 | hello_uppercase.js| takes a users name as parameter and greet a user as "Hello, USERNAME!"
-3 | hello_joe.js | takes a users name as parameter and greet a user as "Hello, USERNAME!" if their name is Joe or Bob otherwise only say "Hello!"
-
-
-
-
-	* takes a number as a parameter (n) and return a list of number from 1 to n
-	* takes a number as a parameter (n) and the sum of numbers from 1 to n
-	* takes a string parameter and return the length of the supplied parameter
-	* takes a string parameter and return the supplied parameter in upper case
-	* takes a string parameter and return the reversed string parameter
-	* takes a number as parameter and return a list of "hello world" entries equal to the number supplied
-	* that can calculate currency conversions between ZAR, GBP and USD
-	* given a list of numbers returns the highest and lowest numbers in the list
-	* takes a sentence as a parameter and return the number of words in the sentence
-	* takes a sentence as a parameter and return the sum of the length of words in the sentence
-	* takes a sentence as a parameter and return the longest word in the sentence and the length of the word
-	* takes a sentence as a parameter and return the shortest word in the sentence and the length of the word
-	* takes a sentence as a parameter and return the average word length rounded down
-	* takes a sentence as a parameter and return the average word length rounded up
-	* takes a sentence as a parameter and return the letter most words starts with
-	* takes a sentence as a parameter and return the letter most words ends with
-	* takes a sentence as a parameter and return the letter that occurs the most
-	* takes a sentence as a parameter and return the letter that occurs the least
-	* that can find all the uppercase letters in a string
-	* that can find all the lowercase letters in a string
+ #|File name | Write a function that?
+---|----------|-------------------------------------------------------------------------------------
+1| hello.js | return "hello world"
+2| hello_uppercase.js| takes a users name as parameter and greet a user as "Hello, USERNAME!"
+3| hello_joe.js | takes a users name as parameter and greet a user as "Hello, USERNAME!" if their name is Joe or Bob otherwise only say "Hello!"
+4| number_list.js |takes a number as a parameter (n) and return a list of number from 1 to n
+5| sum_numbers.js| takes a number as a parameter (n) and the sum of numbers from 1 to n
+6| length.js|takes a string parameter and return the length of the supplied parameter
+7| upper.js |takes a string parameter and return the supplied parameter in upper case
+8 |reverse.js|takes a string parameter and return the reversed string parameter
+9 |hello_list.js| takes a number as parameter and return a list of "hello world" entries equal to the number supplied
+10 |high_low.js| given a list of numbers returns the highest and lowest numbers in the list
+11 | count_words.js|takes a sentence as a parameter and return the number of words in the sentence
+12 | sum_word_len.js |takes a sentence as a parameter and return the sum of the length of words in the sentence
+13 | longest_word.js | takes a sentence as a parameter and return the longest word in the sentence and the length of the word
+14|shortest_word.js|takes a sentence as a parameter and return the shortest word in the sentence and the length of the word
+15|word_length.js|takes a sentence as a parameter and returns both the average word length rounded up & down
+16|avg.js|takes a sentence as a parameter and return the average word length rounded up
+17|start.js|takes a sentence as a parameter and return the letter most words starts with
+18|ends.js|takes a sentence as a parameter and return the letter most words ends with
+19|occurs_most.js|takes a sentence as a parameter and return the letter that occurs the most
+20|occurs_least.js|takes a sentence as a parameter and return the letter that occurs the least
+21|uppercase_letters.js|that can find all the uppercase letters in a string
+22|lowercase_letters.js|that can find all the lowercase letters in a string
+	
 	* can draw a square shape using * it should be 4x4
 	* can draw a square shape using the character supplied as a parameter it should be 4x4
 	* can draw a square shape using the character supplied as a parameter, the dimensions should be supplied by a parameter
@@ -62,6 +58,8 @@ Create a function that:
 	* return the sum of all the ascii codes for the letters that is being passed in as parameters.
 	* returns all the letters in the alphabet which is even numbers and lower case
 	* return the sum of the all the lower case letters ascii codes which is less than the parameters specified.
+	* that can calculate currency conversions between ZAR, GBP and USD
+	
 	 * takes a list of values and a filter function that can filter the list of values - the filtered values should be returned by the function
 	* that takes a function as a parameter which it executes when the (outer) function is called
 	* that takes a function as a parameter and returns a function when executing the returned function it should pass all parameters to the initially passed in function
