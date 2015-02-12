@@ -49,23 +49,32 @@ Create a function that:
 38|factors_2_or_7.js|find all the factors of 2 or 7 that is less than the number specified by the parameter
 39|factors_2_and_7.js|find all the numbers that are factors of both 2 and 7 that is less than the number specified by the parameter
 40|factorial.js|can calculate the factorial for a number supplied as a parameter
-	
-	* can calculate a fibonacci range less than the number supplied as a parameter
+41|fibonacci.js| can calculate a fibonacci for the number supplied as a parameter
+42|ascii_upper.js | find the sum of all the capital letters ASCII codes
+43|ascii_params.js  | return the sum of all the ascii codes for the word that is being passed in as a parameters.
+44| mondays.js| when given a year find the number of mondays there were in that year
+45| anyday.js| when given a year and a day of the week it can find the number of that weeks days that was in the year
+46|dice_rolls.js| can simulate dice rolls for the number of times specified as a parameter - returns the result of the dice rolls.
+47|lower_ascii_sum.js| given a string return the sum of the all the lower case letters ascii codes in the string.
+48|cricket.js| that solves this riddle: The common field cricket chirps in direct proportion to the current tem­perature. Adding 40 to the number of times a cricket chirps in a minute, then dividing by 4, gives us the temperature (in Fahrenheit degrees). Write a program that accepts as input the number of cricket chirps in fifteen seconds, then outputs the current temperature to the nearest half degree. http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
+49|filter.js| takes a list of values and a filter function that can filter the list of values - the filtered result should be returned by the function. This function should be able to filter any kind of data, it shouldn't care about the data.
+
+
 	* takes 2 parameters a list of words and the word to find in the list find the index of where the word is in the list and return it
-	* takes 2 parameters a sentence and the word to find in the sentenace find the start and end index of where the word and returns it.
 	* can simulate dice rolls for the number of times specified as a parameter - display all the dice rolls.
-	* find the sum of all the capital letters ASCII codes 
 	* return the sum of all the ascii codes for the letters that is being passed in as parameters.
 	* returns all the letters in the alphabet which is even numbers and lower case
 	* return the sum of the all the lower case letters ascii codes which is less than the parameters specified.
 	* that can calculate currency conversions between ZAR, GBP and USD
 	
-	 * takes a list of values and a filter function that can filter the list of values - the filtered values should be returned by the function
+	 
+	 
 	* that takes a function as a parameter which it executes when the (outer) function is called
 	* that takes a function as a parameter and returns a function when executing the returned function it should pass all parameters to the initially passed in function
+	
 	* secret code example at http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html
 	* treasure hunt at http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html
 	* mayors race at http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html
-	* The common field cricket chirps in direct proportion to the current tem­perature. Adding 40 to the number of times a cricket chirps in a minute, then dividing by 4, gives us the temperature (in Fahrenheit degrees). Write a program that accepts as input the number of cricket chirps in fifteen seconds, then outputs the current temperature to the nearest half degree. http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
+	* 
 	* Write a program that gauges inflation. It should accept two prices (in whole dollars as input and print their difference, as well as the percentage increase to two decimal places. Then accept as input the number of weeks between the two prices, and compute the yearly rate of inflation (as percentage increase). http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
 	* Roman numerals: http://users.csc.calpoly.edu/~jdalbey/101/Labs/RomanNumerals.html
