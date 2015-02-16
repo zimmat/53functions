@@ -68,7 +68,7 @@ Create a function that:
 47|lower_ascii_sum.js| given a string return the sum of the all the lower case letters ascii codes in the string.
 48|cricket.js| that solves this riddle: The common field cricket chirps in direct proportion to the current tem­perature. Adding 40 to the number of times a cricket chirps in a minute, then dividing by 4, gives us the temperature (in Fahrenheit degrees). Write a program that accepts as input the number of cricket chirps in fifteen seconds, then outputs the current temperature to the nearest half degree. http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
 49|filter.js| takes a list of values and a filter function that can filter the list of values - the filtered result should be returned by the function. This function should be able to filter any kind of data, it shouldn't care about the data.
-50 ||
-51 |tbd|
-52 |tbd|
-53 |tbd|
+50 |tbd| ?
+51 |tbd| ?
+52 |tbd| ?
+53 |tbd| ?
