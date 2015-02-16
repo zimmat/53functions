@@ -8,8 +8,10 @@ You should use:
 * use TDD
 	* your own framework at first
 	* start looking at [Qunit](http://qunitjs.com/)
+	* once you are confidence with Qunit start using it
 	
 * commit to GIT regularly
+
 
 # The functions
 
@@ -18,12 +20,12 @@ Create a function that:
  #|File name | Write a function that?
 ---|----------|-------------------------------------------------------------------------------------
 1| hello.js | return "hello world"
-2| hello_uppercase.js| takes a users name as parameter and greet a user as "Hello, USERNAME!"
-3| hello_joe.js | takes a users name as parameter and greet a user as "Hello, USERNAME!" if their name is Joe or Bob otherwise only say "Hello!"
+2| hello_uppercase.js| takes a users name as parameter and returns "Hello, <USERNAME>!"
+3| hello_joe.js | takes a users name as parameter and returns as "Hello, <USERNAME>!" if their name is Joe or Bob only say "Hello!"
 4| number_list.js |takes a number as a parameter (n) and return a list of number from 1 to n
 5| sum_numbers.js| takes a number as a parameter (n) and return the sum of numbers from 1 to n
 6| length.js|takes a string parameter and return the length of the supplied parameter
-7| upper.js |takes a string parameter and return the supplied parameter in upper case
+7| upper.js |takes a string parameter and return the supplied parameter in uppercase
 8 |reverse.js|takes a string parameter and return the reversed string parameter
 9 |hello_list.js| takes a number as parameter and return a list of "hello world" entries equal to the number supplied
 10 |high_low.js| given a list of numbers returns the highest and lowest numbers in the list
@@ -67,6 +69,6 @@ Create a function that:
 48|cricket.js| that solves this riddle: The common field cricket chirps in direct proportion to the current tem­perature. Adding 40 to the number of times a cricket chirps in a minute, then dividing by 4, gives us the temperature (in Fahrenheit degrees). Write a program that accepts as input the number of cricket chirps in fifteen seconds, then outputs the current temperature to the nearest half degree. http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
 49|filter.js| takes a list of values and a filter function that can filter the list of values - the filtered result should be returned by the function. This function should be able to filter any kind of data, it shouldn't care about the data.
 50 ||
-51 ||
-52 ||
-53 ||
+51 |tbd|
+52 |tbd|
+53 |tbd|
