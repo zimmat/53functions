@@ -3,6 +3,14 @@ Functions to prepare coders to do Code Katas. Each coder will have to clone this
 
 > Fifty-three is the 16th prime number. It is also an Eisenstein prime, and a Sophie Germain prime. The sum of the first 53 primes is 5830, which is divisible by 53, a property shared by few other numbers.
 
+You should use:
+* fork this repo
+* use TDD
+	* your own framework at first
+	* start looking at [Qunit](http://qunitjs.com/)
+	
+* commit to GIT regularly
+
 # The functions
 
 Create a function that:
