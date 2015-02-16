@@ -19,6 +19,8 @@ You should:
 
 # The functions
 
+> If any of these function specifications don't make sense, let's discuss, clarify and change it. 
+
 Create a function that:
 
  #|File name | Write a function that?
