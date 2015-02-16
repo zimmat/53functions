@@ -47,7 +47,7 @@ Create a function that:
 20|occurs_least.js|takes a sentence as a parameter and return the letter that occurs the least
 21|uppercase_letters.js|that can find all the uppercase letters in a string
 22|lowercase_letters.js|that can find all the lowercase letters in a string
-	23||can draw a square shape using * it should be 4x4
+23|square_stars.js|can draw a square shape using * it should be 4x4
 24|square.js|can draw a square shape using the character supplied as a parameter it should be 4x4
 25|square_param.js|can draw a square shape using the character supplied as a parameter, the dimensions should be supplied by a parameter
 26|tri.js|can draw a triangle shape using *, it should be have a base of 4
