@@ -13,7 +13,7 @@ Create a function that:
 2| hello_uppercase.js| takes a users name as parameter and greet a user as "Hello, USERNAME!"
 3| hello_joe.js | takes a users name as parameter and greet a user as "Hello, USERNAME!" if their name is Joe or Bob otherwise only say "Hello!"
 4| number_list.js |takes a number as a parameter (n) and return a list of number from 1 to n
-5| sum_numbers.js| takes a number as a parameter (n) and the sum of numbers from 1 to n
+5| sum_numbers.js| takes a number as a parameter (n) and return the sum of numbers from 1 to n
 6| length.js|takes a string parameter and return the length of the supplied parameter
 7| upper.js |takes a string parameter and return the supplied parameter in upper case
 8 |reverse.js|takes a string parameter and return the reversed string parameter
