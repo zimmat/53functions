@@ -1,17 +1,21 @@
 # 53functions
-Functions to prepare coders to do Code Katas. Each coder will have to clone this repository and start to commit the implementation of the functions into it. A central CI instance will run their functions and give them a score for each function based on how many tests are passing. Coders will need to start working on that from very early on in the program.
+
+You can think of 53 functions as small bite size programming challanges which aim to prepare coders to do Code Katas. Each coder will have to clone this repository and start to commit their implementation of the functions. A central CI instance will run their functions and give them a score for each function based on how many tests are passing. These functions are not to be completed on one sitting, but is to be completed on the coders own time.
 
 > Fifty-three is the 16th prime number. It is also an Eisenstein prime, and a Sophie Germain prime. The sum of the first 53 primes is 5830, which is divisible by 53, a property shared by few other numbers.
 
-You should use:
+You should:
 * fork this repo
 * use TDD
 	* your own framework at first
 	* start looking at [Qunit](http://qunitjs.com/)
 	* once you are confidence with Qunit start using it
-	
 * commit to GIT regularly
 
+# These things count:
+* regular commits
+* testable code
+* passing tests
 
 # The functions
 
