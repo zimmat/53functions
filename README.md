@@ -7,9 +7,11 @@ You can think of 53 functions as small bite size programming challanges which ai
 You should:
 * fork this repo
 * use TDD
-	* your own framework at first
+	* Write the first 5 functions your own framework at first - the one you created in the Codex Setup
 	* start looking at [Qunit](http://qunitjs.com/)
-	* once you are confidence with Qunit start using it
+		* Rewrite the tests for the first 5 functions using Qunit. 
+	* From now on use Qunit 
+	* Setup a [Travis](https://travis-ci.org) and start monitoring your tests
 * commit to GIT regularly
 
 # These things count:
@@ -19,11 +21,26 @@ You should:
 
 # The functions
 
+The function name and the file name should be the same
+
+For example for hello.js the function should look like this:
+
+```
+function hello(){
+	// your code goes here
+}
+```
+
+Each function should have a test file called functionname_test.js
+
+For ```hello.js``` it should be called ```hello_test.js```
+
+
 > If any of these function specifications don't make sense, let's discuss, clarify and change it. 
 
 Create a function that:
 
- #|File name | Write a function that?
+ #|File name & function name | Write a function that?
 ---|----------|-------------------------------------------------------------------------------------
 1| hello.js | return "hello world"
 2| hello_uppercase.js| takes a users name as parameter and returns "Hello, <USERNAME>!"
@@ -58,7 +75,7 @@ Create a function that:
 31|diamond_char_base.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be supplied as parameter.
 32|add.js|can add two numbers
 33|divide|can divide two numbers
-34|calc_all.js|can add, subtract, multiply or divide 2 numbers
+34|calc_all.js|can add, subtract, multiply or divide 2 numbers - parameters are the symbol followed by the 2 numbers
 35|calc_chain.js|has and add, subtract, multiply and divide method - methods should be chainable and it should be possible to do Calculator.add(1,2).multiply(9).value() should equal 27
 36|paper_rock.js|allows one to play rock paper scissors * = rock, # = paper, x = scissors, it should be a constructor function that take in number of games that will be played. var game1 =  new RockPaperScissors(3) - it should have a playerOne and a playerTwo functions, a play and a score method.
 37|factors2.js|find all the factors of 2 that is less than the number specified by the parameter
@@ -72,9 +89,9 @@ Create a function that:
 45| anyday.js| when given a year and a day of the week it can find the number of that weeks days that was in the year
 46|dice_rolls.js| can simulate dice rolls for the number of times specified as a parameter - returns the result of the dice rolls.
 47|lower_ascii_sum.js| given a string return the sum of the all the lower case letters ascii codes in the string.
-48|cricket.js| that solves this riddle: The common field cricket chirps in direct proportion to the current tem­perature. Adding 40 to the number of times a cricket chirps in a minute, then dividing by 4, gives us the temperature (in Fahrenheit degrees). Write a program that accepts as input the number of cricket chirps in fifteen seconds, then outputs the current temperature to the nearest half degree. http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
-49|filter.js| takes a list of values and a filter function that can filter the list of values - the filtered result should be returned by the function. This function should be able to filter any kind of data, it shouldn't care about the data.
-50 |tbd| ?
+48|multiples.js| that can count in multiples, it takes a parameter of the multiple to count in and have a .count() method to give the next number and a list function to return all the numbers that was already counted.
+49|cricket.js| that solves this riddle: The common field cricket chirps in direct proportion to the current tem­perature. Adding 40 to the number of times a cricket chirps in a minute, then dividing by 4, gives us the temperature (in Fahrenheit degrees). Write a program that accepts as input the number of cricket chirps in fifteen seconds, then outputs the current temperature to the nearest half degree. http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
+50|filter.js| takes a list of values and a filter function that can filter the list of values - the filtered result should be returned by the function. This function should be able to filter any kind of data, it shouldn't care about the data.
 51 |tbd| ?
 52 |tbd| ?
 53 |tbd| ?
