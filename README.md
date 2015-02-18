@@ -6,6 +6,8 @@ You can think of 53 functions as small bite size programming challanges which ai
 
 You should:
 * fork this repo
+* link your forked copy of the repo to the upstream repo to easily get any changes to see how to do that have a look here: https://help.github.com/articles/syncing-a-fork/
+* regularly update from upstream to check for changes
 * use TDD
 	* Write the first 5 functions your own framework at first - the one you created in the Codex Setup
 	* start looking at [Qunit](http://qunitjs.com/)
