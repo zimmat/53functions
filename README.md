@@ -12,11 +12,11 @@ You should:
 * use TDD
 	* Always write the test code first - this will help you to understand what needs doing and get you in the habit of doing TDD. 
 	* Write the first 5 functions using your own framework - the one you created in the Codex Setup project called TestMyCode
-	* Once done get your code and test reviewed by your Tech Mentor (André)
+	* Once done get your code and test reviewed by your Tech Mentor (André & Steve)
 	* Once the first 5 tests are passing start looking at [Qunit](http://qunitjs.com/)
 		* Rewrite the tests for the first 5 functions using Qunit. 
 	* From now on use Qunit to write all your tests
-	* Setup a [Travis](https://travis-ci.org) and start monitoring your tests:
+	* Setup [Travis](https://travis-ci.org) and start monitoring your tests:
 		* This will need a gulp setup - speak to your Tech Mentor about this
 		
 **commit to GIT regularly**
