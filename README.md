@@ -16,8 +16,7 @@ You should:
 	* Once the first 5 tests are passing start looking at [Qunit](http://qunitjs.com/)
 		* Rewrite the tests for the first 5 functions using Qunit. 
 	* From now on use Qunit to write all your tests
-	* Setup [Travis](https://travis-ci.org) and start monitoring your tests:
-		* This will need a gulp setup - speak to your Tech Mentor about this
+	* Setup [Travis](https://travis-ci.org) and Gulp tp start monitoring your tests: https://github.com/codex-academy/QUnitSeed
 		
 **commit to GIT regularly**
 
