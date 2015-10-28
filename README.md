@@ -71,9 +71,9 @@ Create a function that:
 21|uppercase_letters.js|that can find all the uppercase letters in a string
 22|lowercase_letters.js|that can find all the lowercase letters in a string
 23|draw.js | that takes a list of strings as a parameter and print each entry in the list to the screen.
-24|square_stars.js|can draw a square shape using * it should be 4x4. Use the `draw` function you created above to display the results of the function on the screen. All subsequent functions that needs to draw something on the screen should use the `draw` function. Why do you think we need the draw function? 
-25|square.js|can draw a square shape using the character supplied as a parameter it should be 4x4. Remember to use the draw function.
-26|square_param.js|can draw a square shape using the character supplied as a parameter, the dimensions should be supplied by a parameter. Remember the draw function.
+24|square_stars.js|can draw a square shape using * it should be 4x4. Use the `draw` function you created above to display the results of the function on the screen. All subsequent functions that need to draw something on the screen should use the `draw` function. Why do you think we need the `draw` function?
+25|square.js|can draw a square shape using the character supplied as a parameter it should be 4x4. Remember to use the `draw` function.
+26|square_param.js|can draw a square shape using the character supplied as a parameter, the dimensions should be supplied by a parameter. Remember the `draw` function.
 27|tri.js|can draw a triangle shape using \*, it should be have a base of 4
 28|tri_char.js|can draw a triangle shape using the character supplied as a parameter, it should be have a base of 4
 29|square_param_base.js|can draw a square shape using the character supplied as a parameter, the base should be supplied as a parameter
