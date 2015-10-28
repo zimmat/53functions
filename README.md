@@ -70,34 +70,34 @@ Create a function that:
 20|occurs_least.js|takes a sentence as a parameter and returns the letter that occurs the least
 21|uppercase_letters.js|that can find all the uppercase letters in a string
 22|lowercase_letters.js|that can find all the lowercase letters in a string
-23|square_stars.js|can draw a square shape using * it should be 4x4
-24|square.js|can draw a square shape using the character supplied as a parameter it should be 4x4
-25|square_param.js|can draw a square shape using the character supplied as a parameter, the dimensions should be supplied by a parameter
-26|tri.js|can draw a triangle shape using \*, it should be have a base of 4
-27|tri_char.js|can draw a triangle shape using the character supplied as a parameter, it should be have a base of 4
-28|square_param_base.js|can draw a square shape using the character supplied as a parameter, the base should be supplied as a parameter
-29|diamond.js|can draw a diamond shape using * the center of the diamond should be 5
-30|diamond_star.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be 5
-31|diamond_char_base.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be supplied as parameter.
-32|add.js|can add two numbers
-33|divide|can divide two numbers
-34|calc_all.js|can add, subtract, multiply or divide 2 numbers - parameters are the symbol followed by the 2 numbers
-35|calc_chain.js|has add, subtract, multiply and divide methods - methods should be chainable. Calculator.add(1,2).multiply(9).value() should equal 27
-36|paper_rock.js|allows one to play rock paper scissors * = rock, # = paper, x = scissors, it should be a constructor function that takes in number of games that will be played. var game1 =  new RockPaperScissors(3) - it should have a playerOne and a playerTwo functions, a play and a score method.
-37|factors2.js|find all the factors of 2 that is less than the number specified by the parameter
-38|factors_2_or_7.js|find all the factors of 2 or 7 that are less than the number specified by the parameter
-39|factors_2_and_7.js|find all the numbers that are factors of both 2 and 7 that are less than the number specified by the parameter
-40|factorial.js|can calculate the factorial for a number supplied as a parameter
-41|fibonacci.js| can calculate a fibonacci for the number supplied as a parameter
-42|ascii_upper.js | find the sum of all the capital letter ASCII codes
-43|ascii_params.js  | return the sum of all the ASCII codes for the word that is being passed in as a parameter.
-44| mondays.js| when given a year find the number of mondays there were in that year
-45| anyday.js| when given a year and a day of the week it can find the number of that weeks days that was in the year
-46|dice_rolls.js| can simulate dice rolls for the number of times specified as a parameter - returns the result of the dice rolls.
-47|lower_ascii_sum.js| given a string return the sum of all the lower case letter ASCII codes in the string.
-48|multiples.js| that can count in multiples, it takes a parameter of the multiple to count in and have a .count() method to give the next number and a list function to return all the numbers that were already counted.
-49|cricket.js| that solves this riddle: The common field cricket chirps in direct proportion to the current tem­perature. Adding 40 to the number of times a cricket chirps in a minute, then dividing by 4, gives us the temperature (in Fahrenheit degrees). Write a program that accepts as input the number of cricket chirps in fifteen seconds, then outputs the current temperature to the nearest half degree. http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
-50|filter.js| takes a list of values and a filter function that can filter the list of values - the filtered result should be returned by the function. This function should be able to filter any kind of data, it shouldn't care about the data.
-51 |tbd| ?
+23|draw.js | that takes a list of strings as a parameter and print each entry in the list to the screen.
+24|square_stars.js|can draw a square shape using * it should be 4x4. Use the `draw` function you created above to display the results of the function on the screen. All subsequent functions that needs to draw something on the screen should use the `draw` function. Why do you think we need the draw function? 
+25|square.js|can draw a square shape using the character supplied as a parameter it should be 4x4. Remember to use the draw function.
+26|square_param.js|can draw a square shape using the character supplied as a parameter, the dimensions should be supplied by a parameter. Remember the draw function.
+27|tri.js|can draw a triangle shape using \*, it should be have a base of 4
+28|tri_char.js|can draw a triangle shape using the character supplied as a parameter, it should be have a base of 4
+29|square_param_base.js|can draw a square shape using the character supplied as a parameter, the base should be supplied as a parameter
+30|diamond.js|can draw a diamond shape using * the center of the diamond should be 5
+31|diamond_star.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be 5
+32|diamond_char_base.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be supplied as parameter.
+33|add.js|can add two numbers
+34|divide|can divide two numbers
+35|calc_all.js|can add, subtract, multiply or divide 2 numbers - parameters are the symbol followed by the 2 numbers
+36|calc_chain.js|has add, subtract, multiply and divide methods - methods should be chainable. Calculator.add(1,2).multiply(9).value() should equal 27
+37|paper_rock.js|allows one to play rock paper scissors * = rock, # = paper, x = scissors, it should be a constructor function that takes in number of games that will be played. var game1 =  new RockPaperScissors(3) - it should have a playerOne and a playerTwo functions, a play and a score method.
+38|factors2.js|find all the factors of 2 that is less than the number specified by the parameter
+39|factors_2_or_7.js|find all the factors of 2 or 7 that are less than the number specified by the parameter
+40|factors_2_and_7.js|find all the numbers that are factors of both 2 and 7 that are less than the number specified by the parameter
+41|factorial.js|can calculate the factorial for a number supplied as a parameter
+42|fibonacci.js| can calculate a fibonacci for the number supplied as a parameter
+43|ascii_upper.js | find the sum of all the capital letter ASCII codes
+44|ascii_params.js  | return the sum of all the ASCII codes for the word that is being passed in as a parameter.
+45| mondays.js| when given a year find the number of mondays there were in that year
+46| anyday.js| when given a year and a day of the week it can find the number of that weeks days that was in the year
+47|dice_rolls.js| can simulate dice rolls for the number of times specified as a parameter - returns the result of the dice rolls.
+48|lower_ascii_sum.js| given a string return the sum of all the lower case letter ASCII codes in the string.
+49|multiples.js| that can count in multiples, it takes a parameter of the multiple to count in and have a .count() method to give the next number and a list function to return all the numbers that were already counted.
+50|cricket.js| that solves this riddle: The common field cricket chirps in direct proportion to the current tem­perature. Adding 40 to the number of times a cricket chirps in a minute, then dividing by 4, gives us the temperature (in Fahrenheit degrees). Write a program that accepts as input the number of cricket chirps in fifteen seconds, then outputs the current temperature to the nearest half degree. http://users.csc.calpoly.edu/~jdalbey/101/HomeworkProblems.html
+51|filter.js| takes a list of values and a filter function that can filter the list of values - the filtered result should be returned by the function. This function should be able to filter any kind of data, it shouldn't care about the data.
 52 |tbd| ?
 53 |tbd| ?
