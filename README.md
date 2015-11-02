@@ -78,13 +78,13 @@ Create a function that:
 28|tri_char.js|can draw a triangle shape using the character supplied as a parameter, it should be have a base of 4
 29|square_param_base.js|can draw a square shape using the character supplied as a parameter, the base should be supplied as a parameter
 30|diamond.js|can draw a diamond shape using * the center of the diamond should be 5
-31|diamond_star.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be 5
-32|diamond_char_base.js|can draw a diamond shape using the character supplied as parameter base of the diamond should be supplied as parameter.
+31|diamond_base.js|can draw a diamond shape using the character supplied as parameter the base of the diamond should be 5
+32|diamond_char_base.js|can draw a diamond shape using the character supplied as parameter the base of the diamond should be supplied as parameter.
 33|add.js|can add two numbers
 34|divide|can divide two numbers
 35|calc_all.js|can add, subtract, multiply or divide 2 numbers - parameters are the symbol followed by the 2 numbers
 36|calc_chain.js|has add, subtract, multiply and divide methods - methods should be chainable. Calculator.add(1,2).multiply(9).value() should equal 27
-37|paper_rock.js|allows one to play rock paper scissors * = rock, # = paper, x = scissors, it should be a constructor function that takes in number of games that will be played. var game1 =  new RockPaperScissors(3) - it should have a playerOne and a playerTwo functions, a play and a score method.
+37|paper_rock.js|allows one to play rock paper scissors * = rock, # = paper, x = scissors, it should be a constructor function that takes in number of games to be played be played. var game1 = new RockPaperScissors(3) - it should have a play and a score method. The play method should generate a turn for each of the two players like this "* - x" until a game is done. The score method should return a score like this. '{ Player1 : 1, Player2 : 2 }'
 38|factors2.js|find all the factors of 2 that is less than the number specified by the parameter
 39|factors_2_or_7.js|find all the factors of 2 or 7 that are less than the number specified by the parameter
 40|factors_2_and_7.js|find all the numbers that are factors of both 2 and 7 that are less than the number specified by the parameter
