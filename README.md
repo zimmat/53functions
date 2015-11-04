@@ -64,7 +64,7 @@ Create a function that:
 14|shortest_word.js|takes a sentence as a parameter and returns the shortest word in the sentence and the length of the word
 15|word_length.js|takes a sentence as a parameter and returns both the average word length rounded up & down
 16|avg.js|takes a sentence as a parameter and returns the average word length rounded up
-17| letter_map.js | Write a function that takes a sentence as the input.The function should return a map. The keys of the map should be the first letters from the words in the sentence. The values should be an array of any words in the sentence that start with the key of the map. given :  ` "Let's do this today"  returns {"L" : ["Let's"], d : ["do"], "t" : ["this", "today"]}`
+17| letter_map.js | Write a function that takes a sentence as a parameter.The function should return a map. The keys of the map should be the first letters from the words in the sentence. The values should be an array of any words in the sentence that start with the key of the map. `"Let's do this today"` should  return `{"L" : ["Let's"], d : ["do"], "t" : ["this", "today"]}`.
 18|start.js|takes a sentence as a parameter and returns the letter most words starts with. Using letter_map.js will be usefull.
 19|ends.js|takes a sentence as a parameter and returns the letter most words ends with. Using something similar to letter_map.js will be usefull.
 20|occurs_most.js|takes a sentence as a parameter and returns the letter that occurs the most
