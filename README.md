@@ -7,16 +7,10 @@ You can think of 53 functions as small bite size programming challenges which ai
 You should:
 
 * Fork this repo.
-* Link your forked copy of the repo to [the upstream repo](https://github.com/codex-academy/53functions) to get changes easily. To see how to do that have a look at [Syncing A Fork](https://help.github.com/articles/syncing-a-fork/)
-* Regularly update from upstream to check for changes.
 * Use TDD.
+	* Write write tests using [Mocha](https://mochajs.org/)
 	* Always write the test code first: this will help you to understand what needs doing and get you into the habit of doing TDD.
-	* Write the first 5 functions using your own framework: the one you created in the Codex Setup project called TestMyCode.
-	* Once done, get your code and tests reviewed by your Tech Mentors (André & Steve)
-	* Once the first 5 tests are passing start looking at [Qunit](http://qunitjs.com/).
-		* Rewrite the tests for the first 5 functions using Qunit.
-	* From now on use Qunit to write all your tests
-	* Setup [Travis](https://travis-ci.org) and Gulp to start monitoring your tests. Have a look at [QUnitSeed](https://github.com/codex-academy/QUnitSeed) to help get you started.
+	* Setup [Travis](https://travis-ci.org) and Gulp to start monitoring your tests.
 
 **Commit to Git regularly**
 
@@ -33,12 +27,40 @@ The function name and the file name should be the same
 For example, `hello.js` the function should look like this:
 
 ```javascript
-function hello(){
-	// your code goes here
-}
+exports.hello = function (){
+	// your code goes hello
+	return "hello world!";
+};
 ```
 
-Each function should have a test file called `functionname_test.js`. For example, the test file for ```hello.js``` should be called ```hello_test.js```.
+# The tests
+
+Each function should have a test file called `functionname_test.js`. For example, the test file for ```hello.js``` should be called ```hello_test.js``` in the `./test` folder.
+
+The test for `hello.js` that's in `test.js` looks like this:
+
+```javascript
+
+var hello = require('./hello');
+var assert = require('assert');
+
+describe('test for hello', function(){
+
+	it('it should say hello', function(){
+		assert.equal(hello(), "hello world!");
+	});
+
+});
+
+```
+
+To run the tests type: `mocha`
+
+If you run mocha `1` test will pass, and `6` will fail.
+
+Go ahead and fix the failing tests by adding function implementations. After that add tests and implementations for all remaining functions.
+
+# The functions to create:
 
 > If any of these function specifications don't make sense, let's discuss, clarify, and change it.
 
