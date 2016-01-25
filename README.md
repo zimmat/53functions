@@ -27,7 +27,7 @@ The function name and the file name should be the same
 For example, `hello.js` the function should look like this:
 
 ```javascript
-exports.hello = function (){
+module.exports = function (){
 	// your code goes hello
 	return "hello world!";
 };
