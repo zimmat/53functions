@@ -58,11 +58,13 @@ To run the tests type: `mocha`
 
 If you run mocha `1` test will pass, and `6` will fail.
 
-Go ahead and fix the failing tests by adding function implementations. After that add tests and implementations for all remaining functions.
+Go ahead and fix the failing tests by adding function implementations. There are stub implementations for the first 7 functions, note that there are more than one test for some of the functions.
+
+After that add tests and implementations for all remaining functions.
 
 # The functions to create:
 
-> If any of these function specifications don't make sense, let's discuss, clarify, and change it.
+`Note: If any of these function specifications don't make sense, let's discuss, clarify, and change it where necessary.`
 
 Create a function that:
 
