@@ -8,9 +8,11 @@ You should:
 
 * Fork this repo.
 * Use TDD.
-	* Write write tests using [Mocha](https://mochajs.org/)
+	* Write tests using [Mocha](https://mochajs.org/)
 	* Always write the test code first: this will help you to understand what needs doing and get you into the habit of doing TDD.
-	* Setup [Travis](https://travis-ci.org) and Gulp to start monitoring your tests.
+	* You need mocha installed. To install it use `npm install -g mocha`
+	* Run `npm install`
+	* Register on [Travis](https://travis-ci.org) and configure your fork of this project in Travis. To see the travis specific for this project in `.travis.yml`
 
 **Commit to Git regularly**
 
@@ -21,10 +23,10 @@ You should:
 * passing tests.
 
 # The functions
-<!--  -->
+
 The function name and the file name should be the same
 
-For example, `hello.js` the function should look like this:
+For example, the `hello` function should be in the `hello.js` should look like this:
 
 ```javascript
 module.exports = function (){
@@ -32,6 +34,9 @@ module.exports = function (){
 	return "hello world!";
 };
 ```
+
+The function is written as a Node JS module. Read more about modules [here](http://openmymind.net/2012/2/3/Node-Require-and-Exports/), [here](http://www.sitepoint.com/understanding-module-exports-exports-node-js/) or [here](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html) :-)
+
 
 # The tests
 
