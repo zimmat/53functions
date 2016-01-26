@@ -4,25 +4,37 @@ You can think of 53 functions as small bite size programming challenges which ai
 
 > Fifty-three is the 16th prime number. It is also an Eisenstein prime, and a Sophie Germain prime. The sum of the first 53 primes is 5830, which is divisible by 53, a property shared by few other numbers.
 
+## Requirements:
+
+For these exercises it's assumed that :
+* node is installed
+* npm is installed
+
+Basic knowledge required:
+* basic understanding of node modules
+* Javascript knowledge
+
+## What to do:
+
 You should:
 
 * Fork this repo.
 * Use TDD.
 	* Write tests using [Mocha](https://mochajs.org/)
 	* Always write the test code first: this will help you to understand what needs doing and get you into the habit of doing TDD.
-	* You need mocha installed. To install it use `npm install -g mocha`
+	* You need mocha installed. Install it global use `sudo npm install -g mocha`
 	* Run `npm install`
-	* Register on [Travis](https://travis-ci.org) and configure your fork of this project in Travis. To see the travis specific for this project in `.travis.yml`
+	* Register on [Travis](https://travis-ci.org) and configure your fork of this project in Travis. See the travis specific for this project in `.travis.yml`
 
 **Commit to Git regularly**
 
-# These things count:
+## These things count:
 
 * regular commits;
 * testable code;
 * passing tests.
 
-# The functions
+## The functions
 
 The function name and the file name should be the same
 
@@ -38,7 +50,7 @@ module.exports = function (){
 The function is written as a Node JS module. Read more about modules [here](http://openmymind.net/2012/2/3/Node-Require-and-Exports/), [here](http://www.sitepoint.com/understanding-module-exports-exports-node-js/) or [here](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html) :-)
 
 
-# The tests
+## The tests
 
 Each function should have a test file called `functionname_test.js`. For example, the test file for ```hello.js``` should be called ```hello_test.js``` in the `./test` folder.
 
@@ -67,7 +79,7 @@ Go ahead and fix the failing tests by adding function implementations. There are
 
 After that add tests and implementations for all remaining functions.
 
-# The functions to create:
+## The functions:
 
 `Note: If any of these function specifications don't make sense, let's discuss, clarify, and change it where necessary.`
 
