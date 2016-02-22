@@ -47,7 +47,9 @@ module.exports = function (){
 };
 ```
 
-The function is written as a Node JS module. Read more about modules [here](http://openmymind.net/2012/2/3/Node-Require-and-Exports/), [here](http://www.sitepoint.com/understanding-module-exports-exports-node-js/) or [here](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html) :-)
+The function is written as a Node JS module. Read more about modules [here](http://openmymind.net/2012/2/3/Node-Require-and-Exports/),
+[here](http://eloquentjavascript.net/10_modules.html),
+[here](http://www.sitepoint.com/understanding-module-exports-exports-node-js/) or [here](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html) :-)
 
 
 ## The tests
