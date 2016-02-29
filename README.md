@@ -90,7 +90,7 @@ Create a function that:
  #| File name & function name | Function behaviour
 ---|---|---
 1| hello.js | returns "hello world"
-2| hello_uppercase.js| takes a username as a parameter and returns "Hello, USERNAME!"
+2| hello_uppercase.js| takes a username as a parameter and returns "Hello, USERNAME!". If no username is supplied it should return "HELLO!".
 3| hello_joe.js | takes a username as a parameter and returns "Hello, USERNAME!". If the username is Joe or Bob only say "Hello!"
 4| number_list.js |takes a number as a parameter (n) and returns a list of numbers from 1 to n
 5| sum_numbers.js| takes a number as a parameter (n) and returns the sum of numbers from 1 to n
