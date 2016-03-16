@@ -135,7 +135,7 @@ Create a function that:
 44|ascii_upper.js | can find the sum of all the capital letter ASCII codes
 45|ascii_params.js  | takes a word as a parameter, and returns the sum of all the ASCII codes for it.
 46| mondays.js| takes a year as an input, and finds the number of Mondays there were in that year
-47| anyday.js| takes a year and a day of the week as a parameter, and finds the number of that weeks days that were in that year
+47| anyday.js| takes a year and a day of the week as a parameter, and find the number of weekdays that were in that year
 48|dice_rolls.js| takes a number as a parameter. Can simulate dice rolls for that number of times, and returns the result of the dice rolls.
 49|lower_ascii_sum.js| takes a string as a parameter, and returns the sum of all the lower case letter ASCII codes in it.
 50|multiples.js| that can count in multiples, it takes a parameter of the multiple to count in and have a .count() method to give the next number and a list function to return all the numbers that were already counted.
