@@ -1,10 +1,10 @@
-module.exports = function(name){
-  this.userName = name;
-
-if(!name){
-  return "Hello!".toUpperCase();
-}
-else {
-    return "Hello," + " " + name.toUpperCase() + "!";
-}
+module.exports = function(name) {
+  // function hello_uppercase(name) {
+    this.userName = name;
+    if (name == "Xolani") {
+      return "Hello," + " " + name.toUpperCase() + "!";
+    } else {
+      return "Hello!".toUpperCase();
+    }
+  // }
 };
